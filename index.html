@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-items">
+            <input type="text" id="input-text" placeholder="0">
+            <button onclick="clr()" class="one ">C</button>
+            <button onclick="del()" class="one del">DEL</button>
+            <button onclick="calculate('%')" class="one">%</button>
+            <button onclick="calculate('/')" class="one">/</button>
+            <button onclick="calculate(7)" class="two">7</button>
+            <button onclick="calculate(8)" class="two">8</button>
+            <button onclick="calculate(9)" class="two">9</button>
+            <button onclick="calculate('*')" class="two">*</button>
+            <button onclick="calculate(4)" class="thre">4</button>
+            <button onclick="calculate(5)" class="thre">5</button>
+            <button onclick="calculate(6)" class="thre">6</button>
+            <button onclick="calculate('-')" class="thre">-</button>
+            <button onclick="calculate(1)" class="four">1</button>
+            <button onclick="calculate(2)" class="four">2</button>
+            <button onclick="calculate(3)" class="four">3</button>
+            <button onclick="calculate('+')" class="four">+</button>
+            <button onclick="calculate('.')" class="five">.</button>
+            <button onclick="calculate(0)" class="five">0</button>
+            <button onclick="Result('=')" class="five result">=</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
